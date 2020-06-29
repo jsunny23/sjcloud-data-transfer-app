@@ -91,10 +91,8 @@ function bootstrapWindow(mainWindow) {
     logging.debug('Chromium menu enabled (production menu disabled).');
   }
 
-  if (nodeEnvironment === 'production' && config.AUTOUPDATE_ENABLED === true) {
-    const autoupdater = require('./bin/backend/autoupdate');
-    autoupdater.startUpdateClient();
-  }
+  logging.info('Start autoupdate');
+  require('update-electron-app')();
 
   logging.info('');
 }

@@ -1,12 +1,12 @@
 {
   "name": "SJCPDataTransferApp",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "license": "Apache-2.0",
   "description": "The St. Jude Cloud Data Transfer App, designed for getting data in the St. Jude Cloud easily and reliably.",
-  "homepage": "https://github.com/stjude/sjcloud-data-transfer",
+  "homepage": "https://github.com/jsunny23/sjcloud-data-transfer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stjude/sjcloud-data-transfer"
+    "url": "https://github.com/jsunny23/sjcloud-data-transfer"
   },
   "main": "app/main.js",
   "scripts": {
@@ -91,6 +91,7 @@
     "tippy.js": "^1.2.0",
     "todc-bootstrap": "^3.3.7-3.3.13",
     "tree-kill": "^1.2.2",
+    "update-electron-app": "^1.5.0",
     "vue-tippy": "^0.2.8",
     "webpack": "^3.8.1",
     "webpack-stream": "^5.2.1",
